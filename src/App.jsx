@@ -4,7 +4,6 @@ import routes from './routes';
 import LandingPage from './pages/Landing/LandingPage';
 import { LoginPage, RegisterPage } from './pages/Login/LoginPage';
 import Logout from './pages/Login/Logout';
-import DashboardPage from './pages/Dashboard/DashboardPage';
 import Farmer from './pages/Dashboard/Farmer';
 import AdminDashboardPage from './pages/Dashboard/Admindashboard/Admindashboard';
 import NotFoundPage from './pages/NotFoundPage';
