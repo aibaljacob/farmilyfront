@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import Header from '../../components/Header/Header';
-import StatsCard from '../../components/Statscard/Statscard';
+import StatsCard from '../../components/StatsCard/StatsCard';
 import ProductTable from '../../components/ProductTable/ProductTable';
 import Chat from '../../components/Chat/Chat';
 import IncomeChart from '../../components/IncomeChart/IncomeChart';
