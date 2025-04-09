@@ -4,18 +4,14 @@ import Header from '../../components/Header/Header';
 import './DashboardPage.css';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import ProfilesPage from '../../components/Profiles/Profiles'
 import ProfileManager from '../../components/Profiles/ProfileManager';
 import Overview from '../../components/Overview/Overview';
 import FarmerProductsPage from '../../components/Products/Products';
-import BuyerDemandsPage from '../../components/Demands/Demands';
 import DealsHistoryPage from '../../components/Deals/Deals';
 import BuyersView from '../../components/BuyersView/BuyersView';
 import BuyerDemands from '../../components/BuyerDemands/BuyerDemands';
-import { ProductOffers } from '../../components/Offers';
 import { useUser } from './UserContext';
 import WarningNotification from '../../components/Warnings/WarningNotification';
-import { showProfileIncompleteWarning } from '../../components/Profiles/ProfileIncompleteAlert';
 import '../../components/Profiles/ProfileToastStyles.css';
 import CustomToastContainer from '../../components/Toast/CustomToastContainer';
 import '../../components/Toast/CustomToastContainer.css';

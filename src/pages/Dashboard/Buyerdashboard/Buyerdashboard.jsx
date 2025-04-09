@@ -1,14 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Sidebar from '../../../components/Sidebar/Sidebar';
 import Header from '../../../components/Header/Header';
 import '../DashboardPage.css';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import ProfilesPage from '../../../components/Profiles/Profiles'
 import ProfileManager from '../../../components/Profiles/ProfileManager';
 import Overview from '../../../components/Overview/Overview';
-import FarmerProductsPage from '../../../components/Products/Products';
-import BuyerDemandsPage from '../../../components/Demands/Demands';
 import DealsHistoryPage from '../../../components/Deals/Deals';
 import FarmerProducts from '../../../components/FarmerProducts/FarmerProducts';
 import { useUser } from '../UserContext';
