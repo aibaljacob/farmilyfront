@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronDownIcon } from 'lucide-react';
 import ProfilePictureUpload from './Pfp';
-import PhoneVerification from './PhoneVerification';
 import countriesData from "./countries.json";
 import { Card, Form, Input, Select, DatePicker, Button, Divider, Typography, Row, Col, message } from 'antd';
 import { UserOutlined, HomeOutlined, GlobalOutlined, MailOutlined, PhoneOutlined, CalendarOutlined } from '@ant-design/icons';
@@ -9,7 +8,6 @@ import moment from 'moment';
 import './ProfileComponents.css';
 import './ProfileDatePicker.css';
 import pincodeData from './pincode.json';
-import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const { TextArea } = Input;

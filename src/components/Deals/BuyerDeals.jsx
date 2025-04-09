@@ -46,7 +46,6 @@ import {
 } from '@ant-design/icons';
 import axios from 'axios';
 import moment from 'moment';
-import { useNavigate } from 'react-router-dom';
 import { showSuccessNotification, showErrorNotification } from '../../utils/notificationConfig';
 import './Deals.css';
 import DealInvoice from './DealInvoice';

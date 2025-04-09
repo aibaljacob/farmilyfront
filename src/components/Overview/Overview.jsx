@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import StatsCard from '../Statscard/Statscard';
-import IncomeChart from '../IncomeChart/IncomeChart';
 import RecentDeals from '../RecentDeals/RecentDeals';
 import RecentPosts from '../RecentPosts/RecentPosts';
-import NearbyBuyers from '../NearbyBuyers/NearbyBuyers';
 import './Overview.css'
 
 const Overview = () => {

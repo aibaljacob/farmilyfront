@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { ProfileView, ProfileCreate, ProfileUpdate } from './ProfileComponents';
 import axios from 'axios';
 import { toast } from 'react-toastify';
-import { Card } from "antd";
 
 const ProfileManager = ({ firstName, lastName, userid, role, onProfileUpdateSuccess }) => {
   const [mode, setMode] = useState('loading');

@@ -3,7 +3,6 @@ import { ProfileForm } from "./ProfileForm";
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import React, { useState, useEffect } from 'react';
-import { Navigate } from "react-router-dom";
 import { UserOutlined, PhoneOutlined, EnvironmentOutlined, CalendarOutlined, InfoCircleOutlined, MailOutlined } from '@ant-design/icons';
 import './ProfileComponents.css';
 
