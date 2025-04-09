@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { ChevronDownIcon } from 'lucide-react';
 import ProfilePictureUpload from './Pfp';
 import countriesData from "./countries.json";
 import { Card, Form, Input, Select, DatePicker, Button, Divider, Typography, Row, Col, message } from 'antd';
